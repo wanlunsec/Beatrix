@@ -1,5 +1,5 @@
 # Beatrix
-##### This is the source code for the paper "The *Beatrix* Resurrections: Robust Backdoor Detection via Gram Matrices".
+##### This is the source code for the paper "The *Beatrix* Resurrections: Robust Backdoor Detection via Gram Matrices" [[arXiv](https://arxiv.org/abs/2209.11715v2)].
 
 ## Dynamic Backdoor Attacks
 - Input-Aware Dynamic Backdoor Attack (NeurIPS'20) [[code](https://github.com/VinAIResearch/input-aware-backdoor-attack-release)]
