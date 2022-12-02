@@ -333,6 +333,7 @@ class Feature_Correlations:
         temp = ob.detach()
         temp = temp**p
         temp = temp.reshape(temp.shape[0],temp.shape[1],-1)
+        temp = ((torch.matmul(temp,temp.transpose(dim0=2,dim1=1))))
         temp = temp.triu()
         temp = temp.sign()*torch.abs(temp)**(1/p)
         temp = temp.reshape(temp.shape[0],-1)
